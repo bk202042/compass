@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/google.maps": "^3.55.12",
     "autoprefixer": "^10.4.20",
     "next": "14.2.5",
     "react": "^18",

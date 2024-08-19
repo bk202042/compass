@@ -1,0 +1,32 @@
+
+*.spec.js
+*.test.js
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+*.swp
+# 특정 JSON 파일 제외
+load-firestore-data/data/places.json
+# 특정 JSON 키 제외 (임베딩 데이터 제외)
+**/*.json:{"embedding": {"_values": []}}
+
+# aider의 채팅 기록 파일 제외
+.aider.chat.history.md
+.aider.input.history.md
+
+# 불필요한 바이너리 캐시 파일 제외
+.aider.tags.cache.v3/cache.db-wal
+.aider.tags.cache.v3/cache.db-shm
+.aider.tags.cache.v3/cache.db# Node modules
+node_modules/
+
+# 빌드된 파일
+dist/
+build/
+out/
+
+# 환경 설정 파일
+.env
+.env.loca
