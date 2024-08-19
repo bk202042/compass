@@ -1,4 +1,12 @@
 {
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": true,
+    "strict": true,
+    "target": "es6",
+    "forceConsistentCasingInFileNames": true
+  },
   "include": [
     ".eslintrc.js"
   ]
